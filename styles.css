@@ -1,0 +1,28 @@
+body{
+    background-color: #736c75;
+}
+h1{
+    color: #0e0d0d;
+    font-size: 40px;
+    text-align: center;
+    font-family: Lucida;
+}
+.right{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    color: #171b1a;
+    display: inline;
+    background-color: #928187;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial;
+}
+p.header{
+    color: #2c2b2b;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
