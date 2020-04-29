@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/6b8883b9b0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style_project.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Contact web</title>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <nav class="navbar">
+            <div class="logo">HBT</div>
+            <ul>
+                <li><a href="project.html">Home</a></li>
+                <li><a href="about_project.html">About</a></li>
+                <li><a href="contact_project.html">Contact</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header><br><br><br><br><br>
+    <section>
+        <div class="container">
+            <div class="contact">
+                <h1><span>Contac</span>tUs</h1>
+            <p><br>Please fill out the form below to contact us</p>
+            <form>
+                <label>Name</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for='email'>Email</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label>Message</label><br>
+                <textarea name="message" rows="5" cols="20" required></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="single">
+            <i class="fa fa-concierge-bell" aria-hidden="true"  style="font-size: 40px; margin-left: 50%;"></i>
+            <p class="foot-heading">Location</p>
+            <p  style="margin-left: 25%;">Lorem ipsum dolor, sit amet consectetur<br>adipisicing elit.</p>
+        </div>
+        <div class="single">
+            <i class="fa fa-phone" aria-hidden="true"  style="font-size: 40px; margin-left: 50%;"></i>
+            <p class="foot-heading">Phone Number</p>
+            <p style="margin-left: 40%;">(0900)-78690</p>
+        </div>
+        <div class="single">
+            <i class="fa fa-envelope" aria-hidden="true" style="font-size: 40px; margin-left: 50%;"></i>
+            <p class="foot-heading">Email Address</p>
+            <p style="margin-left: 40%;">Lorem@hot.com</p>
+        </div>
+    </div>
+    <style>
+        html,body{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .container{
+            min-height: 100%;
+        }
+        .contact{
+            overflow:auto;
+            padding-bottom: 100px;
+        }
+        .footer{
+            position: relative;
+            background-color: black;
+            margin-top: auto;
+            color: whitesmoke;
+        }
+        .single{
+            width: 33%;
+            float: left;
+            text-align: left;
+            color: whitesmoke;
+        }
+
+    </style>
+</body>
+</html>
